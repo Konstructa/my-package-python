@@ -1,27 +1,33 @@
-# package_name
+# connction_server
 
 Description. 
-The package package_name is used to:
+The package connction_server is used to:
 	- 
 	-
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install connction_server
 
 ```bash
-pip install package_name
+pip install connction_server
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from connction_server import connect_tcp
+connect_tcp.createConnectionTCP()
+```
+
+
+```python
+from connction_server import connect_udp
+connect_udp.createConnectionUDP()
 ```
 
 ## Author
-My_name
+Milena Limoeiro
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
