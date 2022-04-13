@@ -1,28 +1,28 @@
-# connction_server
+# connection_server
 
 Description. 
-The package connction_server is used to:
+The package connection_server is used to:
 	- 
 	-
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install connction_server
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install connection_server
 
 ```bash
-pip install connction_server
+pip install connection_server
 ```
 
 ## Usage
 
 ```python
-from connction_server import connect_tcp
+from connection_server import connect_tcp
 connect_tcp.createConnectionTCP()
 ```
 
 
 ```python
-from connction_server import connect_udp
+from connection_server import connect_udp
 connect_udp.createConnectionUDP()
 ```
 
