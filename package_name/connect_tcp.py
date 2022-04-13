@@ -22,5 +22,3 @@ def createConnectionTCP():
     print('Could not connect to host: {} -port {}'.format(target_host, target_port))
     print('Error: {}'.format(e))
     sys.exit()
-
-createConnectionTCP()
